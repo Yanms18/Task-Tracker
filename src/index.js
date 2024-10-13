@@ -24,7 +24,17 @@ const writeTasks = (tasks) => {
     fs.writeFileSync(filePath, JSON.stringify(tasks, null, 2));
 };
 
-const generateId = () => '_' + Math.random().toString(36).substr(2, 9);
+const generateId = (tasks) => {
+    if (tasks.length === 0) {
+        return '0'; // Start with '0' if there are no tasks
+    }
+    
+    // Find the highest number in the list
+    const maxId = Math.max(...tasks.map(task => parseInt(task.id, 10)));
+    
+    // Return the next number as a string
+    return (maxId + 1).toString();
+};
 
 // Command line arguments
 const [,, command, ...args] = process.argv;
