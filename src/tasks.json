@@ -1,0 +1,27 @@
+[
+  {
+    "id": "_izyiibli9",
+    "description": "Complete Node.js project",
+    "status": "todo",
+    "createdAt": "2024-10-10T20:49:42.226Z",
+    "updatedAt": "2024-10-10T20:49:42.227Z"
+  },
+  {
+    "id": 1,
+    "description": "Drink a Coffee and Do Coding",
+    "completed": false,
+    "inProgress": true
+  },
+  {
+    "id": null,
+    "description": "Drink a Coffee",
+    "completed": false,
+    "inProgress": false
+  },
+  {
+    "id": null,
+    "description": "2 Drink 2 Coffee",
+    "completed": false,
+    "inProgress": false
+  }
+]

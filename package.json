@@ -1,0 +1,12 @@
+{
+  "name": "task-tracker",
+  "version": "1.0.0",
+  "description": "A simple Task Tracker for day to day task",
+  "main": "index.js",
+   "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
