@@ -30,10 +30,10 @@ const generateId = (tasks) => {
     }
     
     // Find the highest number in the list
-    const maxId = Math.max(...tasks.map(task => parseInt(task.id, 10)));
+    const maxId = Math.max(...tasks.map(task => (task.id)));
     
-    // Return the next number as a string
-    return (maxId + 1).toString();
+    // Return the next number
+    return (maxId + 1);
 };
 
 // Command line arguments
