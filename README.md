@@ -123,3 +123,7 @@ Writes the given tasks to `tasks.json`.
 
 This project is licensed under the ISC License.
 
+Project inspiration was from roadmap.sh
+
+https://roadmap.sh/projects/task-tracker
+
