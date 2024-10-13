@@ -42,7 +42,7 @@ const [,, command, ...args] = process.argv;
 const addTask = (description) => {
     const tasks = readTasks();
     const newTask = {
-        id: generateId(),
+        id: generateId(tasks),
         description,
         status: 'todo',
         createdAt: new Date().toISOString().slice(0, 16),
