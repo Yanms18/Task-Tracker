@@ -45,8 +45,8 @@ const addTask = (description) => {
         id: generateId(),
         description,
         status: 'todo',
-        createdAt: new Date().toISOString(),
-        updatedAt: new Date().toISOString()
+        createdAt: new Date().toISOString().slice(0, 16),
+        updatedAt: new Date().toISOString().slice(0, 16),
     };
     tasks.push(newTask);
     writeTasks(tasks);
