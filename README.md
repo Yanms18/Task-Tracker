@@ -16,7 +16,7 @@ A simple Task Tracker for day-to-day tasks.
 
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
+   git clone <[repository-url](https://github.com/Yanms18/Task-Tracker.git)>
    ```
 2. Navigate to the project directory:
    ```sh
